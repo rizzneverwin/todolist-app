@@ -1,0 +1,190 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+        
+}
+
+
+/* ======== GLOBAL DARK FORM FIX ======== */
+input, textarea, select {
+    background-color: #1e1f25 !important;
+    color: #ffffff !important;
+    border: 2px solid rgba(255,255,255,0.15) !important;
+    border-radius: 12px !important;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #a78bfa !important; /* Ungu aesthetic */
+    outline: none !important;
+}
+
+/* Option dropdown */
+select option {
+    background-color: #1e1f25 !important;
+    color: white !important;
+}
+
+/* Date input icon fix */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); /* icon putih */
+}
+
+/* Tombol ungu aesthetic */
+.purple-btn {
+    background: #7c3aed;
+    color: white !important;
+    padding: 10px 18px;
+    border-radius: 12px;
+    transition: .2s;
+}
+.purple-btn:hover {
+    background: #9f67ff;
+}
+
+/* Glass effect global */
+.glass {
+    backdrop-filter: blur(12px);
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+/* =========================================================
+   LIGHT MODE (SOFT LIGHT - tidak terlalu terang)
+   ========================================================= */
+
+html.light {
+    --bg: #f3f4f6; /* soft grey */
+    --card: #ffffff; 
+    --text: #111827;
+    --muted: #6b7280;
+    --border: rgba(0,0,0,0.15);
+    --purple: #7c3aed;
+}
+
+html.dark {
+    --bg: #0f0f14;
+    --card: #1b1c22;
+    --text: #e5e7eb;
+    --muted: #9ca3af;
+    --border: rgba(255,255,255,0.08);
+    --purple: #a78bfa;
+}
+
+/* Background global */
+body {
+    background: var(--bg);
+    color: var(--text);
+    transition: 0.25s;
+}
+
+/* Card */
+.card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+/* Table & input border */
+input, textarea, select {
+    background-color: var(--card) !important;
+    color: var(--text) !important;
+    border: 2px solid var(--border) !important;
+}
+
+/* Hover */
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--purple) !important;
+}
+
+/* Navigation button */
+.nav-btn {
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 10px 16px;
+    border-radius: 12px;
+}
+
+/* Purple button */
+.purple-btn {
+    background: var(--purple);
+    color: white !important;
+    padding: 10px 18px;
+    border-radius: 12px;
+}
+
+/* Glass aesthetic (dark + light adapt) */
+.glass {
+    backdrop-filter: blur(12px);
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--border);
+}
+
+/* Toggle button */
+#darkToggle {
+    width: 40px;
+    height: 20px;
+    background: var(--border);
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+}
+#darkToggle::after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: var(--card);
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: .25s;
+}
+
+html.light #darkToggle::after {
+    left: 22px;
+}
+
+/* Kalender */
+.calendar-day {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.calendar-day:hover {
+    background: rgba(255,255,255,0.07);
+}
+
+.calendar-today {
+    background: var(--purple);
+    color: white !important;
+}
+
+.calendar-weekend {
+    color: #ef4444 !important; /* merah */
+}
+
+.calendar-event {
+    background: #facc15 !important; /* kuning */
+    color: #111 !important;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+.calendar-holiday {
+    background: #dc2626 !important; /* merah */
+    color: white !important;
+}
