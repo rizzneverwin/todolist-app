@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co/9TQJwZz/anime-banner-study.jpg" width="100%" alt="Anime Banner">
+  <img src="ayano.jpg" width="100%" alt="Anime Banner">
 </p>
 
 <h1 align="center">📘✨ To-Do List App — Modern Student Productivity</h1>
@@ -19,77 +19,71 @@
 
 ### 🔧 **Framework & Bahasa yang digunakan:**
 - **Laravel 10 / 12** (Backend)
-- **PHP 8** (Bahasa backend utama)
-- **MySQL** (Database utama)
+- **PHP 8** (Backend language)
+- **MySQL** (Database)
 - **TailwindCSS** (UI Styling)
-- **JavaScript ES6** (Interaktif UI)
+- **JavaScript ES6** (Interactivity)
 - **Blade Templates** (Laravel Frontend Engine)
 
 ---
 
 ## 📝 Tentang Project
 
-Aplikasi **To-Do List** ini dirancang khusus untuk siswa / mahasiswa yang ingin:
-- mengelola tugas harian,
-- melihat progress belajar,
-- mengingat deadline,
-- dan memvisualisasikan rencana melalui grafik, kalender, dan kategori.
+Aplikasi **To-Do List** ini dirancang khusus untuk pelajar / mahasiswa untuk:
 
-UI dibuat dengan tema **dark aesthetic ungu futuristik** seperti Notion / ClickUp, lengkap dengan:
-✨ efek glassmorphism  
-✨ dark-light mode  
-✨ progress chart modern  
-✨ kalender lengkap dengan hari libur Indonesia  
-✨ animasi halus  
+- Mengelola tugas harian  
+- Melihat progress belajar  
+- Mengingat deadline  
+- Menampilkan visualisasi tugas dengan grafik & kalender  
+
+UI dibuat dengan tema **dark ungu futuristik**, lengkap dengan:
+
+✨ Glassmorphism  
+✨ Mode gelap & terang  
+✨ Progress chart modern  
+✨ Kalender Indonesia lengkap  
+✨ Animasi partikel aesthetic  
 
 ---
 
 ## 🌟 Fitur Utama
 
 ### ✔ Dashboard Modern
-- Statistik "Total Tugas", "Selesai", "Belum"
+- Statistik tugas lengkap
 - Progress Chart (Chart.js)
 - Upcoming Tasks
 - Daily Summary
-- Kalender Bulanan Real-Time
-- Notifikasi Deadline (opsional)
+- Kalender Bulanan Real-Time (Libur Nasional Indonesia)
 - Dark / Light Mode
 
-### ✔ Manajemen Tugas Lengkap
-- Tambah, edit, hapus tugas
+### ✔ Manajemen Tugas
+- Tambah, Edit, Delete
 - Mark as Done / Pending
 - Priority label (Low, Medium, High)
-- Status label (Done / Belum Dikerjakan)
-- Due Date yang tampil rapi & jelas
+- Deadline tampil rapi
 - Progress Subtasks
 - Kategori tugas
 
 ### ✔ UI Aesthetic Futuristik
-- Style ala Notion + ClickUp
-- Glassmorphism
-- Warna ungu premium
-- Responsif untuk HP & Desktop
-- Animasi partikel bintang
+- Desain ala Notion & Linear
+- Glassmorphism effect
+- Warna ungu neon premium
+- Sangat responsif untuk mobile
 
 ---
 
-## 📸 Preview Tampilan
+## 📸 Preview UI
 
-### 🔹 Dashboard
+### 🔹 Dashboard  
 <p align="center">
-  <img src="https://i.ibb.co/QDHsLLb/todo-dashboard.jpg](https://ibb.co.com/JjpyZFqw" width="90%">
-</p>
-
-### 🔹 Task List
-<p align="center">
-  <img src="https://i.ibb.co/zNSPHJt/todo-tasks-example.jpg" width="90%">
+  <img src="1.jpg" width="90%" alt="Dashboard Preview">
 </p>
 
 ---
 
 ## ⚙️ Instalasi
 
-### 1️⃣ Clone Repo
+### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/rizzneverwin/to-do-list.git
 cd to-do-list
