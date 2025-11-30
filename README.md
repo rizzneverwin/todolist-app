@@ -2,7 +2,7 @@
   <img src="profilee.jpg" width="100%" alt="Anime Banner">
 </p>
 
-<h1 align="center">📘✨ To-Do List App — Modern Student Productivity</h1>
+<h1 align="center">To-Do List App — Modern Student Productivity</h1>
 
 <p align="center">
   <strong>For Students • By Rizki Ramadhan Zafitra</strong><br>
