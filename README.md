@@ -77,7 +77,7 @@ UI dibuat dengan tema **dark aesthetic ungu futuristik** seperti Notion / ClickU
 
 ### 🔹 Dashboard
 <p align="center">
-  <img src="[https://i.ibb.co/QDHsLLb/todo-dashboard.jpg](https://ibb.co.com/JjpyZFqw)" width="90%">
+  <img src="https://i.ibb.co/QDHsLLb/todo-dashboard.jpg](https://ibb.co.com/JjpyZFqw" width="90%">
 </p>
 
 ### 🔹 Task List
