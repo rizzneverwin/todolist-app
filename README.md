@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="profi.jpg" width="100%" alt="Anime Banner">
+  <img src="profile.jpg" width="100%" alt="Anime Banner">
 </p>
 
 <h1 align="center">📘✨ To-Do List App — Modern Student Productivity</h1>
